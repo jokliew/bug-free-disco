@@ -1,21 +1,26 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Lucida Console", "Courier New", monospace;
     margin: 0;
     padding: 0;
-    background-color: 0;
+    background-color: #fef3e7; 
 }
 
 .wrapper {
     width: 80%;
     margin: 0 auto;
-    background-color: #fff;
+    background-color: #ffffffcc;  
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; 
 }
 
 header {
     text-align: center;
     margin-bottom: 20px;
+    background-color: #ffc6bf; 
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 nav ul {
@@ -30,16 +35,16 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #007BFF;
+    color: #2d818f;
 }
 
 h1, h2 {
-    color: #333;
+    color: #2e8b57; 
 }
 
 p {
     line-height: 1.6;
-    color: #666;
+    color: #555; 
 }
 
 .album {
@@ -65,13 +70,13 @@ p {
 }
 
 .header {
-    background-color: #007BFF;
+    background-color: #ffc6bf; 
     color: white;
     padding: 10px 0;
 }
 
 .footer {
-    background-color: #333;
+    background-color: #2e8b57; 
     color: white;
     text-align: center;
     padding: 10px 0;
